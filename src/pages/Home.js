@@ -8,7 +8,7 @@ function Home() {
             <Typography>Shadyshadyshades</Typography>
             <img src={Shades} alt="sunglasses logo"></img>
             <Typography>app development!</Typography>
-            <Typography>shadyshdadyshades@hotmail.com</Typography>
+            <Typography>shadyshadyshades@hotmail.com</Typography>
         </Box>
     );
 }

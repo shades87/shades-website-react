@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Button } from "@mui/material";
 import phone from "../assets/images/sleepyheadappphone.png"
 
 function SleepyheadApp() {
@@ -6,7 +6,7 @@ function SleepyheadApp() {
 
         <Box>
             <img src={phone} alt="Phone with app displayed" height={300}/>
-            <Typography variant="h1">
+            <Typography variant="h3">
                 Use white noise to help you sleep
             </Typography>
             <Typography variant="body1">
@@ -23,6 +23,10 @@ function SleepyheadApp() {
 
                 Improves sleep quality: Studies have shown that using white noise can improve the quality of sleep by reducing the number of times someone wakes up during the night and increasing the amount of time spent in deep sleep.
             </Typography>
+                <Button href="https://play.google.com/store/apps/details?id=edu.curtin.sleepyhead">App on Google Play </Button>
+                <Button href="https://www.instagram.com/dwellerdoesart">UI icons by @dwellerdoesart</Button>
+                <Button href="https://github.com/shades87/Sleepyhead">Github</Button>
+                <Button href="sleepyhead-privacy-policy.html">Privacy policy </Button>
         </Box>
     );
 }
