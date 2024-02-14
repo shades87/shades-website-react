@@ -25,7 +25,6 @@ function AppBar(pathname) {
         </Tabs>
       </AppBarMUI>
       <Toolbar />
-      <Toolbar />
       <Outlet />
     </Box>
  )   
