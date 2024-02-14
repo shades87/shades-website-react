@@ -5,7 +5,6 @@ function About() {
     return(
     <Box>
         <img src={Profile} alt="Daniel in graduation gown" height={200}/>
-        <Typography variant="h2">Hello!</Typography>
         <Box style={{width: '70rem'}} justifyContent="center">
         <Typography >
             Meet Daniel! Daniel (BA, BEd, BComp) is a computer scientist with a passion for AI, mobile application development, and the theory behind computer science.
@@ -22,9 +21,9 @@ function About() {
         </Box>
         <Box paddingTop={2} display="flex" justifyContent="center" alignItems="center">
             <Stack spacing={2} direction="row" alignItems="center">
-                <Button variant="outlined" href="https://www.linkedin.com/in/daniel-mcfadyen-curtin/">linkedin</Button>
-                <Button variant="outlined" href="https://www.instagram.com/lazyjazzfox/">instagram</Button>
-                <Button variant="outlined" href="https://github.com/shades87">github</Button>
+                <Button sx={{textTransform :"none"}} variant="outlined" href="https://www.linkedin.com/in/daniel-mcfadyen-curtin/">linkedin</Button>
+                <Button sx={{textTransform :"none"}} variant="outlined" href="https://www.instagram.com/lazyjazzfox/">instagram</Button>
+                <Button sx={{textTransform :"none"}} variant="outlined" href="https://github.com/shades87">github</Button>
             </Stack>
         </Box>
     </Box>

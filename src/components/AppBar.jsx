@@ -19,9 +19,9 @@ function AppBar(pathname) {
           onChange={handleChange}
           value={pathname}
           textColor="#f2f1f8">
-          <Tab label="home" value="/"/>
-          <Tab label="sleepyhead app" value="/sleepyhead-app" />
-          <Tab label="about" value="/about"/>
+          <Tab sx={{textTransform :"none"}} label="home" value="/"/>
+          <Tab sx={{textTransform :"none"}} label="sleepyhead app" value="/sleepyhead-app" />
+          <Tab sx={{textTransform :"none"}} label="about" value="/about"/>
         </Tabs>
       </AppBarMUI>
       <Toolbar />

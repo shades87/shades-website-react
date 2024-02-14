@@ -25,10 +25,10 @@ function SleepyheadApp() {
             </Typography>
             <Box paddingTop={2} display="flex" justifyContent="center" alignItems="center">
                 <Stack direction="row" spacing={2}>
-                    <Button variant="outlined" href="https://play.google.com/store/apps/details?id=edu.curtin.sleepyhead">App on Google Play </Button>
-                    <Button variant="outlined" href="https://www.instagram.com/dwellerdoesart">UI icons by @dwellerdoesart</Button>
-                    <Button variant="outlined" href="https://github.com/shades87/Sleepyhead">Github</Button>
-                    <Button variant="outlined" href="sleepyhead-privacy-policy.html">Privacy policy </Button>
+                    <Button sx={{textTransform :"none"}} variant="outlined" href="https://play.google.com/store/apps/details?id=edu.curtin.sleepyhead">App on Google Play </Button>
+                    <Button sx={{textTransform :"none"}} variant="outlined" href="https://www.instagram.com/dwellerdoesart">UI icons by @dwellerdoesart</Button>
+                    <Button sx={{textTransform :"none"}} variant="outlined" href="https://github.com/shades87/Sleepyhead">Github</Button>
+                    <Button sx={{textTransform :"none"}} variant="outlined" href="sleepyhead-privacy-policy.html">Privacy policy </Button>
                 </Stack>
             </Box>
         </Box>
