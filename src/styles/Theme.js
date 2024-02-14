@@ -1,6 +1,6 @@
 import { createTheme } from '@mui/material';
 
-export const Theme = createTheme({
+const Theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
@@ -20,9 +20,11 @@ export const Theme = createTheme({
 
   components: {
     MuiTab: {
-      root: {
-        textTransform: 'none',
-      },
+      styleOverrides: {
+        root: {
+          textTransform: 'none',
+        },
+      }
     },
   },
 });

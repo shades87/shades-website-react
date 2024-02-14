@@ -12,7 +12,7 @@ function About() {
         </Typography>
         <Typography >
             <br />Throughout their university journey, Daniel has gained valuable experience in various programming languages and tools, including Go, Python, Java, Kotlin, and C.
-            Additionally, they have expertise in front-end web development languages and frameworks like Javascript, React, HTML and CSS.
+            Additionally, they have expertise in front-end web development languages, frameworks and markup languages like Javascript, React, HTML and CSS.
         </Typography>
         <Typography>
             <br />As a dedicated and collaborative team player, Daniel enjoys working with others to bring projects to fruition.
