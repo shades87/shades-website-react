@@ -13,7 +13,7 @@ export const AppRouter = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/sleepyhead-app" element={<SleepyheadApp />} />
-                    <Route path="/sleepyhead-privacy-policy.html" element={<SleepyheadPrivacy />} />
+                    <Route path="*" element={<SleepyheadPrivacy />} />
                 </Route>
             </Routes>
         </Router>

@@ -1,7 +1,15 @@
 import { Box, Typography, Button, Stack } from "@mui/material";
-import phone from "../assets/images/sleepyheadappphone.png"
+import phone from "../assets/images/sleepyheadappphone.png";
+import { useNavigate } from "react-router-dom";
 
 function SleepyheadApp() {
+
+    const nav = useNavigate();
+    const navigation = (destination) => {
+      nav(destination);
+    }
+
+
     return(
 
         <Box>
@@ -28,7 +36,9 @@ function SleepyheadApp() {
                     <Button sx={{textTransform :"none"}} variant="outlined" href="https://play.google.com/store/apps/details?id=edu.curtin.sleepyhead">App on Google Play </Button>
                     <Button sx={{textTransform :"none"}} variant="outlined" href="https://www.instagram.com/dwellerdoesart">UI icons by @dwellerdoesart</Button>
                     <Button sx={{textTransform :"none"}} variant="outlined" href="https://github.com/shades87/Sleepyhead">Github</Button>
-                    <Button sx={{textTransform :"none"}} variant="outlined" href="sleepyhead-privacy-policy.html">Privacy policy </Button>
+                    <Button sx={{textTransform :"none"}} variant="outlined" onClick={() => {
+                        navigation("/sleepyhead-privacy-policy.html")
+                    }}>Privacy policy </Button>
                 </Stack>
             </Box>
         </Box>
